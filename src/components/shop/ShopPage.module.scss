@@ -1,0 +1,50 @@
+.shopPageContainer {
+    display: flex;
+}
+
+.shopListContainer {
+    width: fit-content;
+    padding: 16px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shopListItemContainer {
+    width: fit-content;
+    padding: 16px;
+}
+
+.shopListSelectedItemContainer {
+    background-color: aquamarine;
+}
+
+.productListItemContainer {
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center'
+}
+
+.productPrice {
+    font-size: small;
+    color: darkgray
+}
+
+.productInfo {
+    text-align: center
+}
+
+.modalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 24px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
