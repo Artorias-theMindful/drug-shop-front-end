@@ -45,7 +45,7 @@ export class Api {
         const responce = await axios.get(`${this.link}/shops`, {
             headers: {
                 'Content-Type': 'application/json',
-                "ngrok-skngrok-skip-browser-warning": "12312"
+                "ngrok-skip-browser-warning": 1
             },
         })
         const data = responce.data
@@ -55,7 +55,7 @@ export class Api {
         const responce = await axios.get(`${this.link}/shops/${id}/products`, {
             headers: {
                 'Content-Type': 'application/json',
-                "ngrok-skngrok-skip-browser-warning": "12312"
+                "ngrok-skip-browser-warning": 1
             },
         })
         const data = responce.data
